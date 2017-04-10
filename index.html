@@ -1,5 +1,125 @@
-<HTML>
-<BODY>
-<H1> Clifton Road Allotments Steering Group Home Page</H>
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: "Lato", sans-serif;}
+    
+   
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+/* Style the links inside the tab */
+div.tab a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: #ddd;
+}
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: #ccc;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+</head>
+<body>
+<h1><Span>Clifton Road Allotments Steering Committee</Span></h1>
+
+<div class="tab">
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Background')" id="defaultOpen">Background</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'faq')">FAQ</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'rbc')">RBC </a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')">Contact</a>
+</div>
+
+<div id="Background" class="tabcontent">
+    
+    
+    
+  <h3>Background</h3>
+  
+<p>As you will know all tenents of allotments managed by Rugby Bougough Council received a letter from Chris Worman the Parks & grounds Manager on the 10th of 
+
+February 2017. The letter advised that in the current financial situation the council was reviewing how it manages allotments around Rugby and proposed that we the 
+
+allotment holders should take on the management by forming an Allotment Association(s)</p>
+<p>Subsequently a public meeting was held on the 16th of March at the Benn Hall</p>
+<p>Further metings for individual sites are planned but as yet RBC have not set any dates<p>
+<p>In order to achive the most from the future meeting with RBC the tenents of the Clifton Road site held their own meeting on the 8th of April at St Peter's with 
+
+aproximately 28 plot holders attending.</p>
+<P>At that meeting it was decided that we feel that the best way forward is to progress discussions with RBC for the process of entering into an agreement for 
+
+"devolved management " of the Clifton road site.<p>
+<p>The meeting therefore decided that a "steering committee " will now start the process moving this forward with a view to getting discussions underway as soon as 
+
+possible , with a view to hopefully take over management control of the site with effect from Jan1 2018.</p>
+<p>We will be forming a formal association and will be calling upon the NSALG to assist us in the this matter.</p>
+<p>During our discussions on Saturday a number of specific points were raised by plot holders that we feel need further explanation/ discussion with RBC so that we 
+
+are in a better informed position to understand where our responsibilities lie in respect of the actual site. these are can be found on our Frequently Asked 
+
+Questions page , but are by far not complete and no doubt further discussions will bring out further questions.<p>
+
+
+
+    
+</div>
+    
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+    <p>Dave Glover<Br>Chairman</Br><Br>Address line1</Br><Br>Address Line2</Br><Br><B>Tel:</B>0123456789</Br></p>
+    
+</div>
+    
+
+<div id="faq" class="tabcontent">
+  <h3>Frequently Asked Questions</h3>
+<p>Welcome to Clifton Road Allotments</p>
+  
+</div>
+
+<div id="Club Waters" class="tabcontent">
+  <h3>Club Waters</h3>
+  <p>Our Waters include the Oxford Canal from bridge 69 to bridge 72</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     <div>
+         
+    </div>
+</body>
+</html> 
